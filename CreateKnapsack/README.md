@@ -1,1 +1,1 @@
-
+This folder contains A graph representing the expected time to run the function CreateKnapsack in yellow while the blue line is the actual runtime of the functon. This function's runtime depends on the amount of elements added, which should increase in an order of n^2/200. From now on I'll simply refer to the expected runtime as n^2. After running the function in increasing numbers of elements, I tracked the start and endtimes of the function in each iteration and then plotted them along the expected runtimes.
