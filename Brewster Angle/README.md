@@ -1,1 +1,7 @@
+This lab was about determining the brewster angle from polarized and unpolarized light. In the figures in this folder, ligh was projected towards a photodiode. In the middle of them was a glass plane which I installed to a motor. I programmed the motor to spin the glass plane, which altered the direction of the incident light, causing full or fractional intensities to be measured by the photodiode.
 
+brewster plot port.png is an image a graph taken at different angles. As shown I was able to analyze the intensity of light, and visualize it along the rotational path of the glass plane. There is an expected behavior of the light intensity in these situations, which is a cosine squared function.
+
+To understand how similar my measured data was to the expected, I needed to analyze the pattens that the data points made. In a perfect world, an optimal fitting would result in a cosine squared fit. After I had analyzed and compared different fits (exponential, sine, cosine, combinations of trigonometric functions) I was able to confirm that cosine was the best fit.
+
+The residual plot demonstrates how closely separated the fitted plot is to my experimental data. The vertical lines represent uncertainty in the measurements (they were too small to include in the first plot), but the differences were very small, indicated more evidence of correct fitting. Using these residuals we can analyze the data from Chi Square functions, or others not used in this experiment to determine if they actually correspond to the fit. Which in this case it did.
